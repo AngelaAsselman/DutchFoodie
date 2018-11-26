@@ -67,8 +67,8 @@ nav a:hover{
     background-color: rgb(29, 93, 93);
 }
 
-.columns {
-    display: flex;
+.column {
+    display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -76,7 +76,6 @@ nav a:hover{
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
-    
     width: 75%;
     padding: 0px 10px 0px 0px;
 }
@@ -96,7 +95,6 @@ nav a:hover{
 
 /* Right column */
 .rightcolumn {
-    
     width: 25%;
 }
 
@@ -114,6 +112,13 @@ nav a:hover{
     background-color: rgb(104, 157, 153);
 }
 
+@media all and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+}
 /*footer styling */
 footer {
     background-color: rgb(66, 132, 132);
