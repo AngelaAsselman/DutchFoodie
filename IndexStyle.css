@@ -23,12 +23,12 @@ body {
 /* Navigation pane only */
 nav {
     background-color: rgb(66, 132, 132);
-    display: block;
+    display: flex;
     width: 100%;
     padding: 0px 0px 0px 0px;
     text-align: left;
     color: rgb(15, 63, 63);
-    display: inline-block;
+    display: flex;
     text-transform: uppercase;
 }
 
@@ -40,15 +40,16 @@ nav ul {
 }
 
 nav li {
-    float: left;
+    display: inline-block;
 }
+
  /* style of hyperlinks in navigation pane */
 nav a:link{
     cursor: pointer;
     display: block;
     color: inherit;
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 16px 16px;
     margin: 0px;
     text-align: left;
 }
