@@ -108,10 +108,10 @@ nav a:hover{
 }
 
 /* to make it pop out when going over the card */
-.leftcolumn .card:hover {
+/*.leftcolumn .card:hover {
     transform: translate(10px, 10px);
     background-color: rgb(104, 157, 153);
-}
+}*/
 
 @media all and (max-width: 800px) {
     .leftcolumn, .rightcolumn {
